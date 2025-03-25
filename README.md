@@ -15,24 +15,24 @@ Prediction on Custom Images: A script allows loading external images, preprocess
 
 ## How to Use the Project
 
-Train the Model
-Run the training script (Digit_recognition.ipynb or train_model.py).
-The model will be trained using the MNIST dataset.
-The trained model weights will be saved as a .pth file.
-Use the Model for Predictions
-Run the predict_digit.py script to classify custom images.
-Provide the path to an image containing a handwritten digit.
-The model will process the image and return the predicted digit along with classification probabilities.
+Train the Model  
+Run the training script (Digit_recognition.ipynb or train_model.py).  
+The model will be trained using the MNIST dataset.  
+The trained model weights will be saved as a .pth file.  
+Use the Model for Predictions  
+Run the predict_digit.py script to classify custom images.  
+Provide the path to an image containing a handwritten digit.  
+The model will process the image and return the predicted digit along with classification probabilities.  
 
 ## Requirements
 
-To run the code, you need to install the following Python libraries:
+To run the code, you need to install the following Python libraries:  
 
-torch
-torchvision
-PIL (Pillow)
-numpy
-You can install them by running: pip install torch torchvision pillow numpy
+torch  
+torchvision  
+PIL (Pillow)  
+numpy  
+You can install them by running: pip install torch torchvision pillow numpy  
 
 ## Conclusion
 
