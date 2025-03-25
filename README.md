@@ -2,16 +2,16 @@
 
 ## Project Description
 
-This project implements an automatic handwritten digit recognition system using a neural network built with PyTorch. The model is designed to classify images of digits from 0 to 9, based on grayscale images of size 28x28 pixels, similar to those in the MNIST dataset.
+This project implements an automatic handwritten digit recognition system using a neural network built with PyTorch. The model is designed to classify images of digits from 0 to 9, based on grayscale images of size 28x28 pixels, similar to those in the MNIST dataset.  
 
-The provided code allows you to train the model, evaluate its performance, and use the trained model to classify custom images containing handwritten digits.
+The provided code allows you to train the model, evaluate its performance, and use the trained model to classify custom images containing handwritten digits.  
 
 ## Project Structure
 
-Model Training: The model is trained using the MNIST dataset, optimized with the Adam algorithm, and evaluated using the CrossEntropyLoss function.
-Neural Network Architecture: A fully connected feedforward neural network is implemented with four dense layers, ReLU activation functions, and a softmax output for classification.
-Performance Evaluation: The model is tested on validation data to measure accuracy and loss, allowing performance monitoring.
-Prediction on Custom Images: A script allows loading external images, preprocessing them, and classifying them using the trained model.
+Model Training: The model is trained using the MNIST dataset, optimized with the Adam algorithm, and evaluated using the CrossEntropyLoss function.  
+Neural Network Architecture: A fully connected feedforward neural network is implemented with four dense layers, ReLU activation functions, and a softmax output for  classification.  
+Performance Evaluation: The model is tested on validation data to measure accuracy and loss, allowing performance monitoring.  
+Prediction on Custom Images: A script allows loading external images, preprocessing them, and classifying them using the trained model.  
 
 ## How to Use the Project
 
